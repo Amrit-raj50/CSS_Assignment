@@ -1,0 +1,321 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 11px;
+}
+.main{
+    display: flex;
+    width: 100vw;
+    height: 730px;
+    background-color: black;
+}
+.aside{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    width: 15vw;
+    background-color: rgb(18, 18, 18);
+    height: 730px;
+    overflow-y: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.box{
+    display: flex;
+    width: 200px;
+    /* border: 1px solid red; */
+    margin: 20px 0px;
+    /* margin-left: 20px; */
+    /* justify-content: space-around; */
+    cursor: pointer;
+
+}
+.material-symbols-outlined{
+    color: white;
+    margin-left: 20px;
+}
+.box2{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    /* border: 1px solid red; */
+    border-bottom: 1px solid gray;
+    cursor: pointer;
+}
+
+.blw-box2{
+    display: flex;
+    width: 200px;
+    /* border: 1px solid red; */
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+.blw-box2:hover{
+    background-color: rgb(58, 58, 58);
+    height: max-content;
+    
+    
+}
+.con{
+    display: flex;
+    flex-direction: column;
+    width: 82vw;
+    height: 700px;
+    /* border: 1px solid red; */
+    margin:30px 0px;
+    /* justify-content: ; */
+    margin-left: 43px;
+    border-bottom: 1px solid  rgb(58, 58, 58);
+    /* overflow-y: auto; */
+    /* overflow-x: hidden;margin-top: -px; */
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width: 82vw;
+    height: 50px;
+    /* border: 1px solid red; */
+    border-bottom: 1px solid gray;
+    align-items: center;
+}
+.inp-ser{
+    display: flex;
+    margin-left: 150px;
+}
+.right{
+    display: flex;
+    justify-content: flex-end;
+    width: 150px;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    margin-right: 30px;
+    align-items: center;
+    /* overflow-y: auto; */
+}
+.mic{
+    /* border: 1px solid red; */
+    margin-top: 3px;
+    border-radius: 20px;
+    /* padding: 5px; */
+    /* margin-left: 10px; */
+    margin-left: 10px;
+    height: 27px;
+}
+.mic:hover{
+    background-color: rgb(58, 58, 58);
+    cursor: pointer;
+}
+.material-symbols-outlined{
+    display: flex;
+    /* justify-content: center; */
+    /* margin: auto; */
+    margin-right: 18px;
+    margin-top: 2px;
+}
+.inp-box{
+    display: flex;
+    align-items: center;
+}
+.inp{
+    padding:6px 0px; 
+    padding-right: 300px;
+    border: 1px solid rgb(58, 58, 58) ;
+    background-color: black;
+    border-radius: 2px;
+    margin-right: ;
+}
+.btn-inp{
+    display: flex; 
+    justify-content: center;
+}
+.btn-box{
+    height: 27.2px;
+     margin-left: -2px;
+     border-style: none;
+     margin-top: 1.5px;
+     background-color: rgb(58, 58, 58);
+     padding: 0px 14px;
+    border-radius: 2px;
+    border: 1px solid rgb(58, 58, 58);
+    
+}
+.rel_nav{
+    display: flex;
+    /* width: 82vw; */
+    /* height: 45px; */
+    /* border: 1px solid red; */
+    /* background-color: aqua; */
+    /* margin-top: 20px; */
+}
+.nav-item{
+    /* width: 50px; */
+    /* height: 50px; */
+    /* background-color: aqua; */
+
+}
+.nav-item{
+    color: white;
+    display: flex;
+    align-items: center;
+    /* border: 1px solid red; */
+    height: 27px;
+    padding: 0px 10px;
+    border-radius: 50px;
+    border: 1px solid gray;
+    margin-right: 10px;
+    width: max-content;
+    background-color:rgb(58, 58, 58) ;
+    cursor: pointer;
+}
+.nav-item:hover{
+    background-color: rgb(113, 113, 113);
+    color: rgb(44, 44, 44);
+}
+.nav-item:active{
+    background-color: white;
+    color: black;
+}
+/* .nav{
+    display: flex;
+    justify-content: space-between;
+    width: 82vw;
+    height: 50px;
+    border: 1px solid red;
+    align-items: center;
+} */
+ #nav1{
+    overflow-x: auto;
+    -ms-overflow-style: none;  /* IE & Edge */
+    scrollbar-width: none;
+ }
+ .main-con{
+    display: flex;
+    flex-direction: column;
+    width: 82vw;
+    height: 930px;
+    /* border: 1px solid red; */
+    /* overflow: auto; */
+    /* overflow-x: hidden; */
+    /* justify-content: space-between; */
+    /* margin-right: 20px; */
+    overflow-y: auto;
+    overflow-x: hidden;
+ }
+ .col{
+    display: flex;
+    /* border: 1px solid green; */
+    width: 82vw;
+    height: 200px;
+    justify-content: space-around;
+    overflow-x: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    /* overflow-y: auto; */
+    /* margin-bottom: 10px; */
+    margin-top: 10px;
+    overflow-y: hidden;
+ }
+ .card{
+    display: flex;
+    flex-direction: column;
+    width: 276px;
+    height: 210px;
+    /* border: 1px solid yellow; */
+    margin-right: 10px;
+    /* margin-top: 20px; */
+    cursor: pointer;
+    /* color: white; */
+    background-color: rgb(23, 23, 23);
+ }
+ .card:hover{
+    transform: scale(1.05);
+ }
+
+ /* .card:hover{
+   margin: 10px 10px;
+
+   
+   
+  
+   
+ }
+  */
+ 
+ .title{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+    color: white;
+    margin-bottom: px;
+ }
+ .text{
+    font-weight: bold;
+ }
+ .data{
+    color: gray;
+    margin-left: 85px;
+ }
+ .frame{
+    width: 245px;
+    height: ;
+    /* border: 1px solid red; */
+    height: 130px;
+ }
+ .h-img{
+    width: 276px;
+    height: 143px;
+ }
+ /* .h-img:hover{
+    width: 280px;
+ } */
+ 
+@media (max-width:1229px){
+    .aside{
+        width: 29vw;
+        /* display: none; */
+        
+    }
+    .main-con{
+        width: 71vw;
+    }
+    .con{
+        width:71vw;
+        margin-left: 15px;
+    }
+    .inp-box{
+        margin-left: -130px;
+    }
+    .inp{
+        padding-right: 10px;
+        border-radius: 20px;
+    }
+    .btn-box{
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px ;
+        margin-left: -15px;
+    }
+    .nav{
+        width: 71vw;
+    }
+    .h-img{
+        width: 244.5px;
+        height: 136px;
+    }
+    .title{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 9px;
+    color: white;
+    margin-bottom: 3px;
+ }
+ .data{
+    margin-left:60px ;
+ }
+ /* .card:hover{
+   padding: 5px;
+   
+ } */
+ 
+}
