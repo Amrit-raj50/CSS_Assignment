@@ -1,0 +1,237 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family:Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+}
+.row{
+    display: flex;
+}
+.bold{
+    font-weight: bold;
+}
+.nor{
+    color: gray;
+    font-size: 15px
+}
+.head{
+    display: flex;
+    flex-direction: column;
+}
+.top{
+    display: flex;
+    background-color: black;
+    width: 100vw;
+    height: 70px;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+#border{
+    /* border: 1px solid red; */
+    height: 60px;
+    align-items: center;
+}
+#border:hover{
+    border: 1px solid white;
+}
+
+.add,.sign-in,.odr{
+  align-content: center;
+}
+.inp-box{
+   display: flex;
+   padding: 15px 0px;
+   padding-right: 400px;
+   padding-left: 10px;
+   /* height: max-content; */
+   border-style: none;
+   border-top-left-radius: 5px;
+   border-bottom-left-radius: 5px;
+   
+}
+.btn{
+    padding: 9px 15px;
+    border-top-right-radius:5px ;
+    border-bottom-right-radius:5px ;
+    border-style: none;
+    background-color: rgb(228, 173, 71);
+    cursor: pointer;
+}
+.lang{
+   display: flex;
+   padding: 0px 3px;
+   justify-content: space-between;
+}
+.lang span{
+    margin: 0px 2px;
+    margin-left: 2px;
+}
+.lang select,.sign-in select{
+    background-color: black;
+    border-style: none;
+    color: white;
+}
+.nav-bar{
+    
+    height: 50px;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.nav-row{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(41, 43, 71);
+    width: 100vw;
+}
+a{
+    color:white;
+    text-decoration: none;
+    font-size: 13px;
+}
+#i{
+    margin-left: 10px;
+}
+li{
+    list-style: none;
+    margin-right: 10px;
+    /* border: 1px solid white; */
+    padding: 10px 5px;
+}
+li:hover{
+    border: 1px solid white;
+}
+li select{
+    background-color:  rgb(41, 43, 71);
+    border-style: none;
+    color: white;
+    /* font-weight: bold; */
+}
+.right{
+    /* margin-left: 729.5px; */
+    width: 422.5px;
+    display: flex;
+    /* align-content: center; */
+    /* align-items: center; */
+}
+#leo{
+    /* margin-top: 10px; */
+}
+.set{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 137px;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+}
+.card{
+    width: 347.2px;
+    height: 470px;
+    /* border: 1px solid red; */
+    /* margin-top:200px ; */
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.set-btn{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+.btn-pre,.btn-next{
+    
+    padding: 20px;
+    background-color: transparent;
+    border-style: none;
+    font-size: 40px;
+}
+.up-set{
+    display: flex;
+    flex-direction: column;display: flex;
+    width: 100vw;
+    height: max-content;
+    /* border: 1px solid red; */
+    justify-content: space-around;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.img-col{
+    display: flex;
+    justify-content: space-around;
+}
+.img-col img{
+    width: 150px;
+}
+.card-para{
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 19px;
+}
+#cart-id-rgt{
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+}
+.card-rgt{
+    background-color: white;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.card-para{
+    /* margin-top: 30px; */
+}
+.btn-sign{
+    padding: 12px 110px;
+    font-weight: bold;
+    color: rgb(63, 63, 63);
+    background-color: rgb(242, 242, 32);
+    border-radius:10px ;
+    border-style: none;
+    display: flex;
+    margin: auto;
+
+}
+/* .btn{
+    position: fixed;
+    top: ;
+} */
+@media (max-width:1229px){
+    #border{
+        padding:0px 10px;
+    }
+    .top{
+        width: max-content;
+        margin-right: 10px;
+        /* display: none; */
+    }
+    .nor{
+        font-size: 12px;
+    }
+    .bold{
+        font-size: 13px;
+    }
+    .nav-row{
+        width: max-content;
+    }
+    li{
+        margin-right: 4.25px;
+    }
+    .set,.up-set{
+        width: max-content;
+        height: max-content;
+    }
+    .card{
+        display: flex;
+        gap: 10px;
+    }
+}
