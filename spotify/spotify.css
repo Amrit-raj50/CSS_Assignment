@@ -1,0 +1,233 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+.top{
+    display: flex;
+}
+.aside{
+    display: flex;
+    flex-direction:column ;
+    width: 18vw;
+    /* border: 1px solid red; */
+    height: 86vh;
+    background-color: black;
+    /* align-content: center; */
+    align-items: center;
+    justify-content: space-around;
+}
+.blw{
+    width: 100vw;
+    height: 14vh;
+    /* border: 1px solid red; */
+    background-color: rgb(36, 36, 36);
+}
+.box1{
+    width: 16vw;
+    /* border: 1px solid red; */
+    margin-bottom: 10px;
+
+}
+.logo{
+    width: 10vw;
+    /* height: 10vh; */
+    display: flex;
+    /* align-items: center; */
+    /* align-content: center; */
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    width: 16vw;
+    margin-bottom: 10px;
+}
+.nav{
+    display: flex;
+    margin-bottom: 13px;
+    /* border: 1px solid red */
+    padding:5px 0px ;
+    border-radius: 5px;
+    
+}
+.nav:hover{
+    background-color: rgb(55, 55, 55);
+}
+.nav img{
+    width: 8px;
+    margin-left: 10px;
+}
+.box img{
+    width: 30px;
+}
+.ls-aside{
+    display: flex;
+    flex-direction: column;
+    width: 16vw;
+    /* border: 1px solid red; */
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+#nav-id{
+    width: 16vw; 
+    /* border: 1px solid red; */
+    margin-top: 10px;
+}
+/* .ls-aside{
+
+} */
+.aside-link{
+    /* margin-left: 10px; */
+    margin-bottom: 5px;
+    color: white;
+    font-weight: bold;
+    /* border: 1px solid red; */
+    padding: 5px 0px;
+    border-radius: 5px;
+}
+.aside-link:hover{
+    background-color: rgb(55, 55, 55) ;
+}
+.aside-link a{
+    margin-left: 10px;
+    font-size: 14px;
+}
+#nav-id img{
+    width: 20px;
+}
+.master{
+    background: linear-gradient(to bottom,rgb(47, 47, 47) ,black);
+    width: 82vw;
+    height: 86vh;
+}
+.con{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    padding: 10px 20px;
+    overflow-y:auto ;
+    overflow-x: hidden;
+    height: 86vh;
+    scrollbar-width: none;
+}
+.profile{
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.arr{
+    width: 85px;
+}
+.arr1{
+    width: 120px;
+}
+.con-para{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    /* border: 1px solid red; */
+    margin-bottom: 30px;
+}
+.fav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    margin-bottom: 30px;
+}
+.rect-box{
+    display: flex;
+    /* border: 1px solid red; */
+    padding-right: 20px;
+    width: 320px;
+    margin: 10px 0px;
+    height: 100px;
+    background-color:  rgb(55, 55, 55);
+    border-radius: 5px;
+    /* justify-content: center; */
+    align-items: center;
+}
+.rect-box p{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    /* align-items: center; */
+    /* align-content: center; */
+    margin-left: 10px;
+}
+
+.para2{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    /* border: 1px solid red; */
+}
+.sma{
+    color: gray;
+    font-weight: bold;
+    font-size: 14px;
+    display: flex;
+    justify-content: right;
+    /* border: 1px solid red; */
+}
+.sing{
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+}
+.card{
+    width: 200px;
+    height: 300px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    /* justify-content: center; */
+    /* align-content: center; */
+    background-color: rgb(30, 30, 30);
+    
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.i{
+    display: flex;
+    align-items: center;
+    /* align-content: center; */
+    /* justify-content: center; */
+    
+
+}
+.card img{
+     width: 170px;
+     display: flex;
+     /* align-items: center; */
+     /* align-content: center; */
+     margin: 20px 15px;
+}
+.card p{
+    color: white;
+    margin-left: 15px;
+    font-weight: bold;
+}
+.card span{
+    font-size: 16px;
+    font-weight: lighter;
+    color: gray;
+}
