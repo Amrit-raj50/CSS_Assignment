@@ -1,0 +1,126 @@
+
+.container{
+    width: 750px;
+    height: 754px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+}
+.in-container{
+    display: flex;
+    border: 1px solid black;
+    width: 750px;
+    height: 300px;
+}
+.in-container-bet{
+    width: 750px;
+    height: 150px;
+    border: 1px solid black;
+}
+
+.sq-box{
+    width: 202px;
+    height: 180px;
+    border: 60px solid rgb(255, 0, 0);
+    display: flex;
+    flex-flow: row wrap;
+}
+.crc-box{
+    border: 2px solid red;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin: 17px;
+}
+.rect-box{
+    width: 170px;
+    height: 298px;
+    border: 1px solid black;
+    display: flex;
+    flex-flow: row wrap;
+}
+.sm-sq{
+    width: 48px;
+    height: 48px;
+    border: 1px solid black;
+}
+#green{
+    border-color: green;
+}
+
+#yellow{
+    border-color: yellow;
+}
+
+#blue{
+    border-color: blue;
+}
+.in-container-bet{
+    display: flex;
+}
+.bwt-rect{
+    display: flex;
+    flex-flow: column wrap;
+    width: 298.78px;
+    height: 150px;
+}
+.sq-bet{
+    width: 150px;
+    height: 148px;
+}
+
+#color-green{
+    background-color: green;
+}
+#color-red{
+    background-color: red;
+}
+#color-yellow{
+    background-color: yellow;
+}
+#color-blue{
+    background-color: blue;
+}
+.star{
+    font-size: 40px;
+   /* display: flex; */
+   /* align-items: center; */
+   /* justify-content: center; */
+   height: 100%;
+   width: 100%;
+   margin: 0px 0px 0px 0px;
+}
+.triangle-right{
+    width: 0;
+    height: 0;
+    border-top: 75px solid transparent;
+    border-bottom: 75px solid transparent;
+    border-left: 75px solid red;
+    margin-left: 1px;
+}
+.triangle-up{
+     width: 0;
+    height: 0;
+    border-left: 75px solid transparent;
+    border-bottom: 75px solid blue;
+    border-right: 75px solid transparent;
+    margin-top: -75px;
+}
+.triangle-left{
+    width: 0;
+    height: 0;
+    border-top: 75px solid transparent;
+    border-bottom: 75px solid transparent;
+    border-right: 75px solid yellow;
+    margin-top: -150px;
+    margin-left: 75px;
+}
+
+.triangle-down{
+    width: 0;
+    height: 0;
+    border-top: 75px solid green;
+    border-left: 75px solid transparent;
+    border-right: 75px solid transparent;
+    margin-top: -150px;
+}
