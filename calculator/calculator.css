@@ -1,0 +1,62 @@
+.container{
+background-color: rgb(46, 45, 45);
+width: 500px;
+height: 800px;
+display: flex;
+flex-direction: column;
+
+}
+
+.in-container{
+ display: flex;
+ flex-direction: column;
+ margin:;
+}
+#id-container{
+    align-items: end;
+}
+
+.btn-org{
+    background-color: orange;
+    color: white;
+
+}
+.btn-org:hover{
+    background-color: rgb(253, 190, 73);
+}
+.btn-blc:hover{
+    background-color:rgb(113, 112, 112);
+}
+.btn-gry:hover{
+    background-color:rgb(224, 219, 219);
+}
+
+.btn-blc{
+    background-color: rgb(78, 77, 77);
+    color: white;
+}
+.btn-gry{
+    background-color: rgb(167, 165, 165);
+}
+
+.btn-org,.btn-gry,.btn-blc{
+   width: 100px;
+   height: 100px;
+   border-radius: 50px;
+   border-style: none;
+   margin: 5px;
+   font-size: 40px;
+}
+
+.in-box{
+    display: flex;
+    justify-content:space-between;
+    margin:0px 20px
+}
+
+#elong-gray{
+    width: 210px;
+}
+.zero{
+    align-items: start;
+}
